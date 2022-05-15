@@ -7,7 +7,7 @@
 
 :root {
   --primary-color: #ffffff;
-  --secondary-color: #decc9a;
+  --secondary-color: #666256;
   --tertiary-color: #ebc196;
 }
 
@@ -52,3 +52,27 @@ header nav ul li a {
   font-weight: lighter;
   font-size: 1.55vw;
 }
+/* header ends, sections begin */
+.main-body {
+    background: var(--secondary-color);
+}
+
+section {
+    padding: 60px;
+}
+
+#about {
+    text-align: center;
+}
+
+article img {
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.section-header  {
+    padding-top: 30px;
+    color: var(--primary-color);
+}
+
