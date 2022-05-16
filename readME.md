@@ -4,4 +4,5 @@
 
 ### If you'd like to see this live website, please click the link https://moshe-jpg.github.io/Resume/ or alternatively, checkout the github repo https://github.com/Moshe-jpg/Resume
 
-###
+### Screenshot of the deployed app:
+![My Resume Screenshot](images\resume-screenshot.jpg)

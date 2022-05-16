@@ -89,11 +89,12 @@ section p {
 }
 
 #about {
-    padding-top: 0;
+    padding-top: 25px;
 }
 
 .moshe-pic {
-  width: 30%;
+  height: 250px;
+  width: 250px;
   margin: 0 auto;
   border-radius: 50%;
 }
