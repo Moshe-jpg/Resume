@@ -52,7 +52,7 @@ header nav ul li a {
   font-weight: lighter;
   font-size: 1.55vw;
 }
-/* header ends, sections begin */
+/* header ends, unviseral stylings begin */
 .main-body {
     background: var(--secondary-color);
 }
@@ -80,13 +80,47 @@ section p {
     letter-spacing: 1.5px;
 }
 
-#about {
+/* about section */
+
+#about, #work, #contact {
     text-align: center;
 }
 
-article img {
+.moshe-pic {
     width: 30%;
     margin: 0 auto;
     border-radius: 50%;
 }
 
+article .section-text {
+    padding: 20px 0;
+}
+
+/* work section */
+
+.work {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.apps {
+    margin: 20px;
+    flex: 1;
+}
+
+#first-app {
+    width: 650px;
+}
+
+.work img {
+    width: 500px;
+}
+
+.img-text {
+    color: var(--primary-color);
+    font-size: 17px;
+    margin: 30px 0;
+}
