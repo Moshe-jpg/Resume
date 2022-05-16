@@ -7,14 +7,14 @@
 
 :root {
   --primary-color: #ffffff;
-  --secondary-color: #666256;
-  --tertiary-color: #ebc196;
+  --secondary-color: #c3884d;
+  --tertiary-color: #0f0e0e;
 }
 
 /* header section */
 
 header {
-  background: var(--tertiary-color);
+  background: var(--secondary-color);
   padding: 20px 35px;
   display: flex;
   justify-content: space-between;
@@ -54,81 +54,121 @@ header nav ul li a {
 }
 /* header ends, unviseral stylings begin */
 .main-body {
-    background: var(--secondary-color);
+  background: var(--tertiary-color);
 }
 
 section {
-    padding: 60px;
-    width: 100%;
+  padding: 60px;
+  width: 100%;
 }
 
-.section-header  {
-    padding-top: 30px;
-    color: var(--primary-color);
-    font-size: 48px;
-    margin: 0 auto;
-    letter-spacing: 3.5px;
+.section-header {
+  padding-top: 30px;
+  color: var(--primary-color);
+  font-size: 48px;
+  margin: 0 auto;
+  letter-spacing: 3.5px;
 }
 
 section p {
-    color: var(--primary-color);
-    line-height: 1.7;
-    width: 80%;
-    margin: 0 auto;
-    font-size: 20px;
-    text-align: center;
-    letter-spacing: 1.5px;
+  color: var(--secondary-color);
+  line-height: 1.7;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 1.5px;
 }
 
 /* about section */
 
-#about, #work, #contact {
-    text-align: center;
+#about,
+#work,
+#contact {
+  text-align: center;
+}
+
+#about {
+    padding-top: 0;
 }
 
 .moshe-pic {
-    width: 30%;
-    margin: 0 auto;
-    border-radius: 50%;
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.moshe-pic:hover {
+    opacity: 40%;
 }
 
 article .section-text {
-    padding: 20px 0;
+  padding: 20px 0;
 }
 
 /* work section */
 
 .work {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .apps {
-    margin: 20px;
-    flex: 1;
+  margin: 20px;
+  flex: 1;
 }
 
 #first-app {
-    width: 650px;
+  width: 650px;
 }
 
 .work img {
-    width: 500px;
+  width: 500px;
 }
 
 .img-text {
-    color: var(--primary-color);
-    font-size: 17px;
-    margin: 30px 0;
+  color: var(--secondary-color);
+  font-size: 17px;
+  margin: 30px 0;
 }
 
 #first-app:hover {
-    width: 550px;
+  width: 550px;
+  opacity: 50%;
 }
 
 .work img:hover {
-    width: 400px;
+  width: 400px;
+  opacity: 50%;
+}
+
+/* footer */
+
+footer {
+  margin: 0;
+  /* only wrap for smaller viewports */
+  /* flex-wrap: wrap; */
+  align-items: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer-section-header {
+  color: var(--primary-color);
+  padding-bottom: 30px;
+}
+
+.footer-p {
+  color: var(--primary-color);
+}
+
+.footer-p a {
+  text-decoration: none;
+  color: var(--primary-color);
 }
