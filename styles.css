@@ -212,6 +212,7 @@ header nav ul li a {
 
  header {
      justify-content: center;
+     position: relative;
  }
 
  header nav ul li a {
